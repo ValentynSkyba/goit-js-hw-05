@@ -9,6 +9,12 @@
 
 
 
+// example Lesson 5-2 const sortedArray = arr => arr.toSorted((a, b) => a.localeCompare(b) );
+
+
+
+const sortByDescendingFriendCount = users => users.sort((a, b) => b.friends.length - a.friends.length);
+
 
 
 console.log(

@@ -7,11 +7,15 @@
 
 // функція getUserNames(users)
     
-    
 
 
+// function getUserNames(users) {
+//   return users.map((user) => {
+//     return user.name;
+//   });
+// }
 
-
+const getUserNames = (arr) => arr.map((user) => user.name);
 
 
 console.log(
