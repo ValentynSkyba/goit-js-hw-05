@@ -10,7 +10,6 @@
 // Використовуй метод includes() для перевірки, чи масив friends містить friendName.
 // Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її роботи.
 
-"use strict"
 
 // function getUsersWithFriend (users, friendName) {
 //     return users
