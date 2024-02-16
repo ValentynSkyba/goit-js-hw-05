@@ -13,15 +13,14 @@
 
 // function getUsersWithFriend (users, friendName) {
 //     return users
-//         .filter((user) => user.friends.includes(friendName))
-//         .map((user) => user.name);
+//         .filter((user) => user.friends.includes(friendName));
 // }
 
-// const getUsersWithFriend = (users, friendName) => users.filter((user) => user.friends.includes(friendName)).map((user) => user.name);
+// const getUsersWithFriend = (users, friendName) => users.filter((user) => user.friends.includes(friendName));
 
 
 const getUsersWithFriend = (users, friendName) => {
-  return users.filter(user => user.friends.includes(friendName)).map(user => user.name);
+  return users.filter(user => user.friends.includes(friendName));
 };
 
 
